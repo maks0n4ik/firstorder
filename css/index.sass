@@ -1,0 +1,690 @@
+*
+  outline: none
+  
+body
+  margin: 0
+  padding: 0
+  font-family: 'Museo Sans Cyrl 300', sans-serif
+  font-weight: 300
+  box-sizing: border-box
+  a
+    text-decoration: none
+ 
+
+.container
+  max-width: 1140px
+  width: 100%
+  margin: 0 auto
+
+.header-top
+  background-color: #2b3047
+  display: flex
+  margin-bottom: 19px
+  &__right,&__left
+    display: flex
+    align-items: center
+  .container
+    display: flex
+    justify-content: space-between
+
+.hide
+  display: none
+
+.submit
+  cursor: pointer
+
+.office
+  display: flex
+  align-items: center
+  padding: 16px 0
+  &-list
+    position: absolute
+    top: 57.6px
+    z-index: 1
+    background: #fff
+    flex-direction: column
+    border: 1px solid #d8d8d8  
+    border-radius: 2px
+  &-text
+    color: #cdcdcd
+    font-size: 18px
+    font-weight: 300  
+    line-height: 26px
+    font-family: 'Museo Sans Cyrl 300', sans-serif
+    margin-right: 9px
+  &-item
+    color: #666666
+    font-family: 'Museo Sans Cyrl 500', sans-serif
+    font-size: 18px
+    font-weight: 400
+    padding: 15px 45px 15px 23px
+    display: block
+    &:last-child
+      border-top: 1px solid #d8d8d8
+      padding-bottom: 20px
+    &:first-child
+      padding-bottom: 20px
+    &:hover
+      color: #723ebc
+      
+      
+
+.arrow
+  margin-left: 9px
+
+.lang
+  display: flex
+  align-items: center
+  margin-left: 29px
+  a
+    height: 20px
+  &-img
+    margin-right: 12px
+
+.links
+  display: flex
+  &-img
+    width: 24px
+    height: 24px
+    margin-left: 8px
+
+.personal-cabinet
+  display: flex
+  align-items: center
+  margin-left: 30px
+  &__item
+    display: flex
+    align-items: center
+    &-text
+      color: #cdcdcd
+      font-size: 18px
+      font-weight: 300
+      line-height: 26px
+      margin-left: 14px
+      font-family: 'Museo Sans Cyrl 300', sans-serif
+    &-img
+      height: 12px
+
+.header-content
+  .container
+    display: flex
+    justify-content: space-between
+    margin-bottom: 20px
+  &__right
+    display: flex
+    align-items: flex-end
+  &__left
+    display: flex
+    align-items: flex-start
+  
+.logo
+  margin-right: 28px
+
+.nav-panel
+  display: grid
+  grid-template-columns: minmax(0, max-content) minmax(0, max-content)
+  &__item
+    color: #666666
+    font-size: 16px
+    font-weight: 500
+    line-height: 30px
+    letter-spacing: 0.16px
+    font-family: 'Museo Sans Cyrl 500', sans-serif
+    &:nth-child(2n)
+      margin-left: 28px
+
+.geolocation
+  &-text
+    color: #666666
+    font-size: 16px
+    font-weight: 400
+    line-height: 30px
+    letter-spacing: 0.16px
+    margin-left: 13px
+    font-family: 'Museo Sans Cyrl 500', sans-serif
+
+.content
+  background-image: url(../img/bg.png)
+  background-repeat: no-repeat
+  padding: 86px 0 89px 0
+  background-size: cover
+  background-position: center
+  &-title
+    &__text
+      color: #ffffff
+      font-family: 'Circe 900'
+      font-size: 49px
+      font-weight: 900
+      line-height: 70px
+      text-transform: uppercase
+      text-align: center
+      margin: 0
+      margin-bottom: 115px
+
+.services
+  display: flex
+  justify-content: space-evenly
+  span
+    display: block
+  &-text
+    color: #ffffff
+    font-size: 20px
+    font-weight: 400
+    line-height: 28px
+    font-family: 'Museo Sans Cyrl 700', sans-serif
+
+
+.offer
+  display: flex
+  flex-direction: column
+  border: none
+  background-color: #7245a5
+  text-align: left
+  max-width: 350px
+  padding: 20px 24px 20px 30px
+  &:first-child
+    background-color: #9566c9
+  &:last-child
+    background-color: #532d7d
+  &-title
+    color: #ffffff
+    font-size: 20px
+    font-weight: 400
+    line-height: 32px
+    letter-spacing: 0.2px
+    font-family: 'Museo Sans Cyrl 700', sans-serif
+  &-description
+    color: #ffffff
+    font-size: 17px
+    font-weight: 400
+    line-height: 25px
+    letter-spacing: 0.18px
+    margin-bottom: 25px
+    font-family: 'Museo Sans Cyrl 300', sans-serif
+  &-button
+    padding: 15px 18px
+    background-color: #ffffff
+    height: 10px
+    display: flex
+    align-items: center
+
+.programms
+  margin-top: 79px
+  &-title
+    text-align: left center
+    margin-bottom: 49px
+    &__text
+      color: #1f2831
+      font-family: 'Circe 900'
+      font-size: 50px
+      font-weight: 900
+      line-height: 65px
+      text-transform: uppercase
+  &-offer
+    &__button
+      background-image: url(../img/town.png)
+      background-size: cover
+      background-position: center
+      background-repeat: no-repeat
+      padding-bottom: 77px
+      .container
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        align-content: space-evenly
+
+.set
+  padding: 81px 0
+  background-color: #f9f9f9
+  .container
+    display: flex
+    flex-direction: column
+    justify-content: center
+  &-title
+    color: #1f2831
+    font-family: 'Circe 900'
+    font-size: 44px
+    font-weight: 400
+    line-height: 65px
+    text-transform: uppercase
+    margin: 0
+    margin-bottom: 5px
+  &-text
+    color: #1f2831
+    font-family: 'Museo Sans Cyrl 100'
+    font-size: 20px
+    font-weight: 400
+    line-height: 28px
+    margin-right: 71px
+  &-button
+    display: flex
+    justify-content: center
+    margin-top: 29px
+    .submit
+      padding: 16px 30px
+      line-height: 17px
+      border: none
+      font-family: 'Circe 700'
+      font-size: 18px
+      background-color: #532d7d
+      color: #fff
+      
+
+.news_about-us
+  background-color: #fff
+  padding: 80px 0
+
+.cards
+  display: flex
+  margin-top: 44px
+
+.card
+  display: flex
+  flex-direction: column
+  margin-right: 31px
+  &-name
+    color: #ffffff
+    font-family: 'Museo Sans Cyrl 300'
+    font-size: 18px
+    line-height: 25px
+    letter-spacing: 0.18px
+  &-button
+    padding: 15px 32px
+    color: #ffffff
+    font-family: 'Circe 700'
+    font-size: 17px
+    line-height: 17px
+    border: none
+    margin-top: 11px
+    background-color: #7b30ce
+
+.news_about-us
+  .container
+    display: flex
+
+.about-us
+  &__title
+    color: #1f2831
+    font-family: 'Circe 900'
+    font-size: 50px
+    line-height: 65px
+    text-transform: uppercase
+    margin-bottom: 55px
+
+.teachers
+  background-image: url(../img/about-us_bg.png)
+  padding: 155px 50px 20px 50px 
+  background-position: center
+  background-size: cover
+  text-align: center
+
+.our-principles
+  background-image: url(../img/about-us_bg2.png)
+  padding: 155px 50px 20px 50px 
+  background-position: center
+  background-size: cover
+  text-align: center
+
+.btn
+  padding: 10px 8px
+  border: none
+  &-prev
+    background-color: #1f2831
+  &-next
+    background-color: #532d7d
+
+.swiper-container
+  position: relative
+
+.buttons
+  position: absolute
+  z-index: 99
+  bottom: 0
+  right: 172px
+
+.news
+  &__title
+    color: #1f2831
+    font-family: 'Circe 900'
+    font-size: 50px
+    line-height: 65px
+    text-transform: uppercase
+  &__item
+    margin-top: 45px
+    display: flex
+  &-card
+    display: flex
+    flex-direction: column
+  &-text
+    color: #888b8d
+    font-family: 'Museo Sans Cyrl 300'
+    font-size: 16px
+    line-height: 20px
+    margin-bottom: 40px
+    &__title
+      color: #1f2831
+      font-family: 'Circe'
+      font-size: 18px
+      font-weight: 700
+      line-height: 20px
+      margin-bottom: 16px
+  &-date
+    color: #752fc3
+    font-family: 'Circe', sans-serif
+    font-size: 20px
+    font-weight: 400
+    line-height: 21px
+    margin-bottom: 21px
+  &-img
+    margin-right: 30px
+
+.swiper-container
+  max-width: 515px
+
+.video
+  padding: 79px 0
+  background-color: #f9f9f9
+  .container
+    display: flex
+  &-text
+    display: flex
+    flex-direction: column
+    align-items: center
+  &-img
+    margin-right: 30px
+  &-text
+    color: #1f2831
+    font-family: 'Museo Sans Cyrl 100'
+    font-size: 16px
+    line-height: 24px
+    &_author
+      font-family: 'Museo Sans Cyrl 500'
+      font-weight: 700
+  &-quote
+    margin-bottom: 100px
+
+.images
+  padding: 60px 0 80px 0
+  .container
+    display: flex
+    justify-content: space-evenly
+
+.gimnasium
+  background-color: #f9f9f9
+  padding: 71px 0 86px 0
+  .container
+    display: flex
+    flex-direction: column
+    justify-content: center
+  &-text
+    color: #1f2831
+    font-size: 50px
+    line-height: 50px
+    text-transform: uppercase
+    font-weight: 400
+    margin: 0
+    margin-left: 53px
+  &-button
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    margin-top: 49px
+    .submit
+      margin-right: 280px
+  &-img
+    margin-left: 50px
+
+.title
+  text-align: center
+  display: flex
+  align-items: center
+
+.submit
+  padding: 23px 88px
+  background-color: #532d7d
+  color: #ffffff
+  font-family: 'Circe'
+  font-size: 24px
+  line-height: 22px
+  border: none
+
+.footer
+  background-color: #2b3047
+  padding: 30px 0 86px 0
+  .container
+    display: flex
+
+.about-center
+  margin-right: 120px
+  &__title
+    color: #ffffff
+    font-size: 20px
+    font-weight: 400
+    line-height: 17px
+    letter-spacing: 0.2px
+  &__list
+    padding: 0
+    margin: 0
+    margin-top: 21px
+    a
+      color: #989898
+      font-size: 14px
+      font-weight: 300
+      line-height: 21px
+      letter-spacing: 0.14px
+      li
+        list-style: none
+
+.footer-programms
+  margin-right: 111px
+  &__title
+    color: #ffffff
+    font-size: 20px
+    font-weight: 400
+    line-height: 17px
+    letter-spacing: 0.2px
+  &__list
+    padding: 0
+    margin: 0
+    margin-top: 21px
+    a
+      color: #989898
+      font-size: 14px
+      font-weight: 300
+      line-height: 21px
+      letter-spacing: 0.14px
+      li
+        list-style: none
+
+.footer-nav
+  display: flex
+  flex-direction: column
+  a
+    margin-bottom: 23px
+  &__item
+    color: #ffffff
+    font-size: 20px
+    font-weight: 400
+    line-height: 14px
+    letter-spacing: 0.2px
+    text-transform: uppercase
+
+.talk
+  display: flex
+  flex-direction: column
+  margin-left: 173px
+  &__title
+    color: #ffffff
+    font-size: 20px
+    font-weight: 400
+    line-height: 14px
+    letter-spacing: 0.2px
+    text-transform: uppercase
+    margin-bottom: 23px
+
+.geo-text
+  color: #ffffff
+  font-size: 16px
+  font-family: 'Circe'
+  font-weight: 100
+  line-height: 20px
+  letter-spacing: 0.16px
+
+.footer-links
+  display: flex
+  margin-bottom: 32px
+  &__item
+    margin-right: 13px
+
+.copyright
+  color: #989898
+  font-family: 
+  font-size: 16px
+  font-weight: 300
+  line-height: 24px
+  letter-spacing: 0.16px
+  margin-top: 44px
+
+
+.modal
+  position: fixed
+  top: 0
+  display: none
+  justify-content: center
+  align-items: center
+  width: 100vw
+  height: 100vh
+  z-index: 990
+  background-color: #1e1e1ed6
+  &-input
+    padding: 0
+    padding-left: 30px
+    width: calc(100% - 30px)
+    color: #555555
+    font-family: Circe
+    font-size: 16px
+    font-weight: 300
+    height: 68px
+    border: none
+    margin-bottom: 15px
+    &:first-child
+      margin-top: 22px
+  &__content
+    padding: 49px 64px
+    background-color: #2b3047
+    border-radius: 10px
+    position: relative
+
+.name
+  margin-top: 22px
+
+.application
+  opacity: 1
+  width: 467px
+  display: flex
+  flex-direction: column
+  position: relative
+  &__title
+    color: #ffffff
+    font-family: 'Circe 700'
+    font-size: 30px 
+    line-height: 38px
+    margin-bottom: 22px
+  .modal-submit
+    padding: 23px 88px
+    background-color: #532d7d
+    color: #ffffff  
+    font-size: 18px
+    line-height: 17px
+    border: none
+    width: 100%
+    margin-bottom: 19px
+    
+#select
+  padding: 0
+  padding-left: 30px
+  width: 100%
+  color: #555555
+  font-family: Circe
+  font-size: 16px
+  font-weight: 300
+  height: 68px
+  border: none
+  margin-bottom: 15px
+  appearance: none
+  display: flex
+  background-image: url()
+  
+
+.cross
+  position: absolute
+  top: -17px
+  right: -17px
+  width: 40px
+  height: 40px
+  border-radius: 50%
+  float: right
+  text-align: center
+  cursor: pointer
+
+.form-application
+  border-bottom: 1px solid #fff
+  padding-bottom: 30px
+  margin-bottom: 12px
+  input[type="checkbox"]
+    appearance: none
+    position: absolute
+    transition: .5s
+    &:checked ~ i
+      top: 1px
+      border-top: none
+      border-right: none
+      height: 5px
+      width: 15px
+      transform: rotate(-45deg)
+      transition: .4s 
+
+.text
+  display: flex
+  align-items: flex-end   
+
+.down
+  display: flex
+  justify-content: space-between
+  
+.down-links
+  display: flex
+  &__item
+    margin-left: 13px
+
+.confidicial
+  position: relative
+  label
+    display: flex
+    align-items: center
+    i
+      position: absolute
+      top: 0
+      display: inline
+      width: 15px
+      height: 15px
+      border: 1px solid #fff
+      transition: .4s
+  label
+    position: relative
+  &__text
+    position: relative
+    left: 28px
+    color: #ffffff
+    font-size: 14px
+    font-weight: 400
+    line-height: 20pxv
+    .underline
+      color: #ffffff
+      font-size: 14px
+      font-weight: 400
+      line-height: 20px
+      text-decoration: underline
+
+.active
+  display: flex
+
